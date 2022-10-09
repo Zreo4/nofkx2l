@@ -1,14 +1,4 @@
-# 使用 northflank 部署 Xray 高性能代理服务，通过 Vless + WS + Tls 协议传输，并配置 Web 网站。
-
-> 提醒： 滥用可能导致账户被BAN！！！
-
-## 概述
-
-每次部署自动选择最新的 Alpine Linux 和 Xray-core 。
-
-可通过自定义网络配置文件启动 Xray 和 Caddy，按需配置各种功能。
-
-  * 务必替换部署时的默认 UUID。
+* 务必替换部署时的默认 UUID。
   * start.sh文件里修改UUID和伪装网站。
   * northflank账号需要绑定信用卡，可以搭建两个免费服务。
 ## 镜像
